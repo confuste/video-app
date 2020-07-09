@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name"
+        tools:ignore="MissingTranslation">VideoApp</string>
+
+    <string name="common_ok">OK</string>
+    <string name="common_accept">Yes</string>
+    <string name="common_cancel">Cancel</string>
+
+    <string name="fragment_recorder_label">@string/app_name</string>
+    <string name="fragment_gallery_label">Gallery</string>
+    <string name="fragment_player_label">Player</string>
+
+    <string name="permission_alert_title">Permissions</string>
+    <string name="permission_alert_message">You must accept permissions</string>
+
+
+    <string name="gallery_file_removed">File was removed</string>
+    <string name="gallery_file_removed_fail">Error to remove the file</string>
+    <string name="gallery_dialog_title">Delete file</string>
+    <string name="gallery_dialog_message">Do you want to remove the file?</string>
+    <string name="gallery_item_number">#NUMBER# files</string>
+    <string name="gallery_contextual_delete_file_action">Delete file</string>
+</resources>

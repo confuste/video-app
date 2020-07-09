@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/recorder_fragment">
+
+    <fragment
+        android:id="@+id/recorder_fragment"
+        android:name="com.alexfuster.videoapp.ui.recorder.RecorderFragment"
+        android:label="@string/fragment_recorder_label"
+        tools:layout="@layout/fragment_recorder">
+        <action
+            android:id="@+id/action_recorder_fragment_to_gallery_fragment"
+            app:destination="@id/gallery_fragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/gallery_fragment"
+        android:name="com.alexfuster.videoapp.ui.gallery.GalleryFragment"
+        android:label="@string/fragment_gallery_label"
+        tools:layout="@layout/fragment_gallery">
+
+        <action
+            android:id="@+id/action_gallery_fragment_to_player_fragment"
+            app:destination="@id/player_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/player_fragment"
+        android:name="com.alexfuster.videoapp.ui.player.PlayerFragment"
+        android:label=""
+        tools:layout="@layout/fragment_player">
+        <argument
+            android:name="playerFilePath"
+            app:argType="string"/>
+    </fragment>
+
+
+</navigation>

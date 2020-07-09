@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="common_ok">OK</string>
+    <string name="common_accept">Sí</string>
+    <string name="common_cancel">Cancelar</string>
+
+    <string name="fragment_recorder_label">@string/app_name</string>
+    <string name="fragment_gallery_label">Galería</string>
+    <string name="fragment_player_label">Reproductor</string>
+
+    <string name="permission_alert_title">Persmisos</string>
+    <string name="permission_alert_message">Debes aceptar los permisos</string>
+
+    <string name="gallery_file_removed">El archivo fue eliminado</string>
+    <string name="gallery_file_removed_fail">Error al eliminar el archivo</string>
+    <string name="gallery_dialog_title">Eliminar archivo</string>
+    <string name="gallery_dialog_message">¿Quieres eliminar el archivo?</string>
+    <string name="gallery_item_number">#NUMBER# vídeos</string>
+    <string name="gallery_contextual_delete_file_action">Eliminar archivo</string>
+</resources>

@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/delete_video"
+        android:title="@string/gallery_contextual_delete_file_action"/>
+
+</menu>
